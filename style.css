@@ -8,23 +8,23 @@ body {
 header {
   background: #1f3a5f;
   color: white;
-  padding: 60px 20px;
+  padding: 70px 20px;
   text-align: center;
 }
 
 .btn {
-  display: inline-block;
   margin-top: 20px;
+  display: inline-block;
   padding: 10px 25px;
   background: white;
   color: #1f3a5f;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 section {
-  padding: 50px 20px;
-  max-width: 900px;
+  padding: 60px 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -34,27 +34,30 @@ h2 {
 
 .grid span {
   background: white;
-  padding: 10px 15px;
+  padding: 10px 14px;
   margin: 6px;
   display: inline-block;
   border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,.05);
 }
 
 .card {
   background: white;
   padding: 20px;
-  margin: 15px 0;
+  margin: 18px 0;
   border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,.05);
 }
 
 .card a {
   color: #1f3a5f;
   text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
   background: #1f3a5f;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
