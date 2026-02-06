@@ -61,3 +61,45 @@ footer {
   text-align: center;
   padding: 25px;
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #111;
+}
+
+.store-links {
+  margin-top: 15px;
+}
+
+.store-links a {
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 6px;
+  padding: 8px 14px;
+  background: #111;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.store-links a:hover {
+  background: #333;
+}
+
